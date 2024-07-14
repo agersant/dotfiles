@@ -1,3 +1,13 @@
+## Back-up pre-requisites
+
+- ⬜ Sync.com
+- ⬜ Documents folder
+- ⬜ Update music in glacier
+- ⬜ M:/ drive content
+- ⬜ OBS recordings
+
+## Goals
+
 - ⬜ Nixos
 - ⬜ Flake
 - ⬜ Git
@@ -41,3 +51,9 @@
 - ⬜ Theming ✨
 - ⬜ Raspberry Pi music sync
 - ⬜ Music tagging software
+
+## Resources
+
+- https://arewewaylandyet.com/
+- https://github.com/isabelroses/dotfiles
+- https://github.com/jakehamilton/config
