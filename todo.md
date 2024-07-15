@@ -1,10 +1,13 @@
 ## Back-up pre-requisites
 
-- ⬜ Sync.com
-- ⬜ Documents folder
-- ⬜ Update music in glacier
-- ⬜ M:/ drive content
-- ⬜ OBS recordings
+- ✅ Sync.com -> syncthing
+- ✅ Add relevant files from /Documents to syncthing
+- ✅ Buy Bandcamp cart
+- ⬜ Backup music & TV on external drive
+- ✅ Update music on pi
+- 🚧 Update Glacier music backup
+- ✅ Misc M:/ drive content to syncthing
+- 🚧 OBS recordings
 
 ## Goals
 
@@ -51,6 +54,7 @@
 - ⬜ Theming ✨
 - ⬜ Raspberry Pi music sync
 - ⬜ Music tagging software
+- ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
 
 ## Resources
 
