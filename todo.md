@@ -51,7 +51,7 @@
 - ⬜ Video player (https://github.com/Rafostar/clapper ?)
 - ⬜ PDF viewer
 - ⬜ Printer 🖨
-- ⬜ Theming ✨
+- ⬜ Theming ✨ (swayfx? stylix?)
 - ⬜ Raspberry Pi music sync
 - ⬜ Music tagging software
 - ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
