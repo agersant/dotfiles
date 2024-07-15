@@ -59,5 +59,6 @@
 ## Resources
 
 - https://arewewaylandyet.com/
+- https://github.com/3elDU/nixos-config
 - https://github.com/isabelroses/dotfiles
 - https://github.com/jakehamilton/config
