@@ -7,7 +7,7 @@
 - ✅ Update music on pi
 - 🚧 Update Glacier music backup
 - ✅ Misc M:/ drive content to syncthing
-- 🚧 OBS recordings
+- ⬜ OBS recordings
 
 ## Goals
 
@@ -25,7 +25,7 @@
 - ⬜ Tray & clock (https://github.com/Alexays/Waybar)
 - ⬜ 1Password
 - ⬜ Discord official client
-- ⬜ Wallpaper
+- ⬜ Wallpaper (https://github.com/danth/stylix ?)
 - ⬜ Dual screen
 - ⬜ Some way to turn off the computer
 - ⬜ Freetube
