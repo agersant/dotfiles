@@ -5,7 +5,7 @@
 - ✅ Buy Bandcamp cart
 - ✅ Backup music & TV on external drive
 - ✅ Update music on pi
-- 🚧 Update music backup in Glacier
+- ✅ Update music backup in Glacier
 - ✅ Misc M:/ drive content to syncthing
 - ✅ OBS recordings to horizon.pics & backup drive
 - ✅ Buy parts
