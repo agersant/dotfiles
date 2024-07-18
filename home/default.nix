@@ -15,4 +15,17 @@
     };
   };
 
+  programs.nushell = {
+    enable = true;
+    extraLogin = ''
+      if (tty) == "/dev/tty1" {
+        echo "nushell hello"
+      }
+    '';
+  };
+
+  wayland.windowManager.sway = {
+    enable = true;
+  };
+
 }

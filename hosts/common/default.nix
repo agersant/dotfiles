@@ -6,12 +6,18 @@
     extraGroups = [
       "wheel"
     ];
+    shell = pkgs.nushell;
   };
 
   home-manager = {
     users.agersant = ../../home;
   };
 
-  environment.systemPackages = [ pkgs.git ];
+  hardware.opengl.enable = true;
+  security.polkit.enable = true;
+
+  environment.systemPackages = [ pkgs.git pkgs.nushell ];
+
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 }
