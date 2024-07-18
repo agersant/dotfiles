@@ -6,6 +6,10 @@
 
   programs.home-manager.enable = true;
 
+  imports = [
+    ./nushell
+  ];
+
   programs.git = {
     enable = true;
     userName = "Antoine Gersant";
@@ -13,15 +17,6 @@
     extraConfig = {
      credential = { helper = "store"; };
     };
-  };
-
-  programs.nushell = {
-    enable = true;
-    extraLogin = ''
-      if (tty) == "/dev/tty1" {
-        sway
-      }
-    '';
   };
 
   programs.alacritty.enable = true;
