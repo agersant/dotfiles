@@ -1,26 +1,29 @@
 { pkgs, ... }: {
 
+  imports = [
+    ./desktop.nix
+  ];
+
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  environment.systemPackages = [ pkgs.git pkgs.nushell ];
+
   users.users.agersant = {
     isNormalUser = true;
     description = "Antoine Gersant";
     extraGroups = [
-      "wheel"
+      "wheel"      
     ];
     shell = pkgs.nushell;
   };
-
-  nixpkgs.config.allowUnfree = true;
 
   home-manager = {
     users.agersant = ../../home;
     useGlobalPkgs = true;
   };
 
-  hardware.opengl.enable = true;
-  security.polkit.enable = true;
+  networking.networkmanager.enable = true;
 
-  environment.systemPackages = [ pkgs.git pkgs.nushell ];
-
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nixpkgs.config.allowUnfree = true;
 
 }
