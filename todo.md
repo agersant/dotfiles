@@ -14,15 +14,17 @@
 
 ## Quests
 
-- ⬜ Install Nixos
-- ⬜ Setup configuration Flake
-- ⬜ Setup git
-- ⬜ Setup passwordless user account
-- ⬜ Setup Home manager
-- ⬜ Setup window manager (https://swaywm.org/)
+- ✅ Install Nixos
+- ✅ Setup configuration Flake
+- ✅ Setup git
+- ✅ Setup passwordless user account (note: has password but auto login)
+- ✅ Setup Home manager
+- ✅ Install window manager (https://swaywm.org/)
+- ⬜ Configure window manager (shortcuts, spacing, layout logic)
 - ⬜ Make wireless mouse work
 - ⬜ Make wireless keyboard work
-- ⬜ Install Firefox
+- ✅ Install Firefox
+- ⬜ Configure Firefox (extensions, search engine, new tab behavior)
 - ⬜ Install app launcher (https://github.com/lbonn/rofi? onagre?)
 - ⬜ Install 1Password
 - ⬜ Setup tray & clock (https://github.com/Alexays/Waybar)
@@ -30,18 +32,21 @@
 - ⬜ Setup wallpaper (https://github.com/danth/stylix ?)
 - ⬜ Make dual screen work
 - ⬜ Add some non-CLI way to turn off the computer
+- ✅ Make audio work
 - ⬜ Make wireless headset work
 - ⬜ Install Freetube
 - ⬜ Install a music player (https://github.com/tramhao/termusic?)
-- ⬜ Install a terminal emulator (https://github.com/alacritty/alacritty)
+- ✅ Install a terminal emulator (https://github.com/alacritty/alacritty)
 - ⬜ Install a file browser (https://github.com/sxyazi/yazi? nemo? thunar? dolphin?)
+- ⬜ Mount second nvme drive
 - ⬜ Mount music & TV library somewhere
-- ⬜ Setup syncthing shares
-- ⬜ Install email client (Thunderbird)
+- ⬜ Setup syncthing shares into home
+- ⬜ Install & configure email client (Thunderbird)
 - ⬜ Install Steam
 - ⬜ Make Granblue work
 - ⬜ Make leverless controller work
-- ⬜ Install VS Code
+- ✅ Install VSCode
+- ⬜ Configure VSCode
 - ⬜ Install an image viewer
 - ⬜ Make discord screen sharing work
 - ⬜ Install a screenshot tool (https://github.com/Kirottu/watershot ?)
@@ -50,7 +55,7 @@
 - ⬜ Install a torrent client (deluge?)
 - ⬜ Install a video player (https://github.com/Rafostar/clapper ?)
 - ⬜ Make video recording work (https://github.com/xlmnxp/blue-recorder). Make sure it works in Granblue!
-- ⬜ Install a decent shell (https://www.nushell.sh)
+- ✅ Install a shell designed for humans (https://www.nushell.sh)
 - ⬜ Install a PDF viewer
 - ⬜ Make printer work 🖨
 - ⬜ Theming ✨ (swayfx? stylix?)
