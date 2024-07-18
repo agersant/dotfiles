@@ -26,6 +26,8 @@
 
   programs.alacritty.enable = true;
 
+  programs.firefox.enable = true;
+
   wayland.windowManager.sway = {
     enable = true;
     config = {
