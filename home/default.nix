@@ -24,8 +24,13 @@
     '';
   };
 
+  programs.alacritty.enable = true;
+
   wayland.windowManager.sway = {
     enable = true;
+    config = {
+      terminal = "alacritty";
+    };
   };
 
 }
