@@ -8,7 +8,7 @@
 
   imports = [
     ./nushell
-    ./vscode
+    ./vscode.nix
   ];
 
   programs.git = {
