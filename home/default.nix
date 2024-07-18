@@ -28,6 +28,13 @@
 
   programs.firefox.enable = true;
 
+  programs.vscode = {
+    enable = true;
+    userSettings = {
+     "security.workspace.trust.enabled" = false;
+    };
+  };
+
   wayland.windowManager.sway = {
     enable = true;
     config = {

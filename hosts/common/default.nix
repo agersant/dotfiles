@@ -9,8 +9,11 @@
     shell = pkgs.nushell;
   };
 
+  nixpkgs.config.allowUnfree = true;
+
   home-manager = {
     users.agersant = ../../home;
+    useGlobalPkgs = true;
   };
 
   hardware.opengl.enable = true;
