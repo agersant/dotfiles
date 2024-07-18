@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
   users.users.agersant = {
     isNormalUser = true;
@@ -11,5 +11,7 @@
   home-manager = {
     users.agersant = ../../home;
   };
+
+  environment.systemPackages = [ pkgs.git ];
 
 }
