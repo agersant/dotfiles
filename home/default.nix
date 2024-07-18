@@ -19,7 +19,7 @@
     enable = true;
     extraLogin = ''
       if (tty) == "/dev/tty1" {
-        echo "nushell hello"
+        sway
       }
     '';
   };
