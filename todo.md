@@ -46,7 +46,7 @@
 - ⬜ Make Granblue work
 - ⬜ Make leverless controller work
 - ✅ Install VSCode
-- ⬜ Configure VSCode
+- 🚧 Configure VSCode (keybinds, settings)
 - ⬜ Install an image viewer
 - ⬜ Make discord screen sharing work
 - ⬜ Install a screenshot tool (https://github.com/Kirottu/watershot ?)
