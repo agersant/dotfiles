@@ -8,6 +8,7 @@
 
   imports = [
     ./nushell
+    ./vscode
   ];
 
   programs.git = {
@@ -22,14 +23,6 @@
   programs.alacritty.enable = true;
 
   programs.firefox.enable = true;
-
-  programs.vscode = {
-    enable = true;
-    userSettings = {
-     "security.workspace.trust.enabled" = false;
-     "git.enableSmartCommit" = true;
-    };
-  };
 
   wayland.windowManager.sway = {
     enable = true;
