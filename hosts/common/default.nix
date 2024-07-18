@@ -4,9 +4,9 @@
     ./desktop.nix
   ];
 
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
   environment.systemPackages = [ pkgs.git pkgs.nushell ];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nixpkgs.config.allowUnfree = true;
 
   users.users.agersant = {
     isNormalUser = true;
@@ -23,7 +23,6 @@
   };
 
   networking.networkmanager.enable = true;
-
-  nixpkgs.config.allowUnfree = true;
+  services.getty.autologinUser = "agersant";
 
 }
