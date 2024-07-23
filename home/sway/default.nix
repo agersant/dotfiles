@@ -5,7 +5,12 @@
     config = {
       terminal = "alacritty";
       keybindings = lib.mkOptionDefault {
-        "Mod4+3" = "exec firefox";
+        "Mod1+F4" = "kill";
+        "Mod4+Left" = "move left";
+        "Mod4+right" = "move right";
+        "Mod4+up" = "move up";
+        "Mod4+down" = "move down";
+        "Mod4+3" = "exec firefox";        
       };
       startup = [
         { command = "discord"; }
