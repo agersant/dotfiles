@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, lib, ... }: {
 
   imports = [
     ../common
@@ -8,6 +8,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  time.timeZone = "America/Los_Angeles";
   networking.hostName = "oolacile";
 
   system.stateVersion = "24.05";
