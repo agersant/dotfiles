@@ -7,9 +7,14 @@
       url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    stylix = {
+      url = "github:danth/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+    };
   };
 
-  outputs = { nixpkgs, home-manager, ... }@inputs: 
+  outputs = { nixpkgs, home-manager, stylix, ... }@inputs: 
 
     let systems = [
       {
@@ -27,6 +32,7 @@
               modules = [
                 ./hosts/${system.name}
                 home-manager.nixosModules.home-manager
+                stylix.nixosModules.stylix
               ];              
             };
           }

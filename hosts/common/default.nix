@@ -5,6 +5,7 @@
     ./audio.nix
     ./bluetooth.nix
     ./desktop.nix
+    ./stylix.nix
   ];
 
   environment.systemPackages = [ pkgs.git pkgs.nushell ];

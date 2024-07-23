@@ -21,16 +21,16 @@
 - ✅ Setup Home manager
 - ✅ Install window manager (https://swaywm.org/)
 - ⬜ Configure window manager (shortcuts, spacing, layout logic)
-- ⬜ Make wireless mouse work
-- ⬜ Make wireless keyboard work
+- ✅ Make wireless mouse work
+- ✅ Make wireless keyboard work
 - ✅ Install Firefox
 - ⬜ Configure Firefox (extensions, search engine, new tab behavior)
-- ⬜ Install app launcher (https://github.com/lbonn/rofi? onagre?)
-- ⬜ Install 1Password
+- ✅ Install app launcher (https://github.com/lbonn/rofi? onagre?)
+- ✅ Install 1Password
 - ⬜ Setup tray & clock (https://github.com/Alexays/Waybar)
-- ⬜ Install Discord
-- ⬜ Setup wallpaper (https://github.com/danth/stylix ?)
-- ⬜ Make dual screen work
+- ✅ Install Discord
+- ✅ Setup wallpaper (https://github.com/danth/stylix ?)
+- ✅ Make dual screen work
 - ⬜ Add some non-CLI way to turn off the computer
 - ✅ Make audio work
 - ⬜ Make wireless headset work
@@ -58,7 +58,7 @@
 - ✅ Install a shell designed for humans (https://www.nushell.sh)
 - ⬜ Install a PDF viewer
 - ⬜ Make printer work 🖨
-- ⬜ Theming ✨ (swayfx? stylix?)
+- 🚧 Theming ✨ (swayfx? stylix?)
 - ⬜ Customize command prompt (https://starship.rs/)
 - ⬜ Setup music sync to rpi
 - ⬜ Find music tagging software (if player doesn't do it)
