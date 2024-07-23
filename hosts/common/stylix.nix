@@ -9,8 +9,8 @@
             };
         };
         image = pkgs.fetchurl {
-            url = "https://w.wallhaven.cc/full/7p/wallhaven-7p3we9.png";
-            sha256 = "zkbzVUjhixbiiE7N8uvVuIbTdU79XWy57tY19ZlwTBU=";
+            url = "https://w.wallhaven.cc/full/6d/wallhaven-6deedl.png";
+            sha256 = "5jma+DaROy5kMks6lMRovSRWp1wQIFSXM5O/X3iDcEE=";
         };
     };
 }
