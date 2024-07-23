@@ -1,6 +1,7 @@
 { pkgs, ... }: {
 
   imports = [
+    ./_1password.nix
     ./audio.nix
     ./bluetooth.nix
     ./desktop.nix
