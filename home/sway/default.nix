@@ -10,6 +10,7 @@
       startup = [
         { command = "discord"; }
       ];
+      floating.titlebar = false;
       gaps.inner = 20;
       window.border = 0;
       window.titlebar = false;
