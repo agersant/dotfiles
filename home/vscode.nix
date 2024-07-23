@@ -52,6 +52,7 @@ keybindings = [
 
 userSettings = {
 	"security.workspace.trust.enabled" = false;
+	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
 };
 
