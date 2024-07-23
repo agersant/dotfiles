@@ -51,9 +51,12 @@ keybindings = [
 ];
 
 userSettings = {
-	"security.workspace.trust.enabled" = false;
+	"editor.minimap.enabled" = false;
+	"editor.stickyScroll.enabled" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
+	"security.workspace.trust.enabled" = false;
+	"workbench.tree.enableStickyScroll" = false;
 };
 
 in
