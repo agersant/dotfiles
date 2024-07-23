@@ -7,6 +7,7 @@
   programs.home-manager.enable = true;
 
   imports = [
+    ./alacritty.nix
     ./firefox.nix
     ./git.nix
     ./nushell
@@ -17,8 +18,6 @@
   home.packages = [
     pkgs.discord
   ];
-
-  programs.alacritty.enable = true;
 
   programs.rofi = {
     enable = true;
