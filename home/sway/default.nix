@@ -7,6 +7,9 @@
       keybindings = lib.mkOptionDefault {
         "Mod4+3" = "exec firefox";
       };
+      startup = [
+        { command = "discord"; }
+      ];
       gaps.inner = 20;
       window.border = 0;
       window.titlebar = false;
