@@ -7,18 +7,10 @@
   programs.home-manager.enable = true;
 
   imports = [
+    ./git.nix
     ./nushell
     ./vscode.nix
   ];
-
-  programs.git = {
-    enable = true;
-    userName = "Antoine Gersant";
-    userEmail = "antoine.gersant@lesforges.org";
-    extraConfig = {
-     credential = { helper = "store"; };
-    };
-  };
 
   programs.alacritty.enable = true;
 
