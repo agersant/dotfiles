@@ -3,6 +3,7 @@
   wayland.windowManager.sway = {
     enable = true;
     config = {
+      focus.followMouse = false;
       terminal = "alacritty";
       keybindings = lib.mkOptionDefault {
         "Mod1+F4" = "kill";
