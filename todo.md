@@ -20,14 +20,15 @@
 - ✅ Setup passwordless user account (note: has password but auto login)
 - ✅ Setup Home manager
 - ✅ Install window manager (https://swaywm.org/)
-- ⬜ Configure window manager (shortcuts, spacing, layout logic)
+- 🚧 Configure window manager (shortcuts, spacing, layout logic)
 - ✅ Make wireless mouse work
 - ✅ Make wireless keyboard work
 - ✅ Install Firefox
-- ⬜ Configure Firefox (extensions, search engine, new tab behavior)
+- 🚧 Configure Firefox (extensions, search engine, new tab behavior)
 - ✅ Install app launcher (https://github.com/lbonn/rofi? onagre?)
 - ✅ Install 1Password
 - ⬜ Setup tray & clock (https://github.com/Alexays/Waybar)
+- ⬜ Setup volume controls
 - ✅ Install Discord
 - ✅ Setup wallpaper (https://github.com/danth/stylix ?)
 - ✅ Make dual screen work
@@ -42,9 +43,10 @@
 - ⬜ Mount music & TV library somewhere
 - ⬜ Setup syncthing shares into home
 - ⬜ Install & configure email client (Thunderbird)
-- ⬜ Install Steam
-- ⬜ Make Granblue work
-- ⬜ Make leverless controller work
+- ✅ Install Steam
+- ✅ Make Granblue work
+- ✅ Make leverless controller work
+- ⬜ Make frame meter mod work
 - ✅ Install VSCode
 - 🚧 Configure VSCode (keybinds, settings)
 - ⬜ Install an image viewer
