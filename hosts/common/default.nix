@@ -1,6 +1,8 @@
 { pkgs, ... }: {
 
   imports = [
+    ./audio.nix
+    ./bluetooth.nix
     ./desktop.nix
   ];
 
