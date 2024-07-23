@@ -5,6 +5,7 @@
     ./audio.nix
     ./bluetooth.nix
     ./desktop.nix
+    ./steam.nix
     ./stylix.nix
   ];
 
