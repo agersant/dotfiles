@@ -7,14 +7,13 @@
   programs.home-manager.enable = true;
 
   imports = [
+    ./firefox.nix
     ./git.nix
     ./nushell
     ./vscode.nix
   ];
 
   programs.alacritty.enable = true;
-
-  programs.firefox.enable = true;
 
   wayland.windowManager.sway = {
     enable = true;
