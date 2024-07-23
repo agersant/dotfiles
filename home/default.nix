@@ -13,6 +13,7 @@
     ./nushell
     ./sway
     ./vscode.nix
+    ./waybar
   ];
 
   home.packages = [

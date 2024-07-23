@@ -1,8 +1,9 @@
 {config, lib, ...}: {
 
   wayland.windowManager.sway = {
-    enable = true;
+        enable = true;
     config = {
+      bars = []; 
       focus.followMouse = false;
       terminal = "alacritty";
       keybindings = lib.mkOptionDefault {
@@ -15,6 +16,7 @@
       };
       startup = [
         { command = "discord"; }
+        { command = "waybar"; }
       ];
       floating.titlebar = false;
       gaps.inner = 20;

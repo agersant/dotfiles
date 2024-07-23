@@ -17,7 +17,8 @@
     isNormalUser = true;
     description = "Antoine Gersant";
     extraGroups = [
-      "wheel"      
+      "input"
+      "wheel"
     ];
     shell = pkgs.nushell;
   };
