@@ -14,6 +14,10 @@
     ./vscode.nix
   ];
 
+  home.packages = [
+    pkgs.discord
+  ];
+
   programs.alacritty.enable = true;
 
   programs.rofi = {
