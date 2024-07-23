@@ -1,7 +1,7 @@
 #! /usr/bin/env nu
 
-if (ps | where name =~ "rofi" | is-empty) {
-    rofi -modes combi -combi-modes "window,drun" -show-icons -show combi
-}  else {
+if (^ps -d | str contains "rofi") {
     pkill rofi
+}  else {
+    rofi -modes combi -combi-modes "window,drun" -show-icons -show combi
 }
