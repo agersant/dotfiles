@@ -1,4 +1,4 @@
-{ ... }: {
+{ pkgs, ... }: {
 
   home.username = "agersant";
   home.homeDirectory = "/home/agersant";
@@ -10,16 +10,15 @@
     ./firefox.nix
     ./git.nix
     ./nushell
+    ./sway
     ./vscode.nix
   ];
 
   programs.alacritty.enable = true;
 
-  wayland.windowManager.sway = {
+  programs.rofi = {
     enable = true;
-    config = {
-      terminal = "alacritty";
-    };
+    package = pkgs.rofi-wayland;
   };
 
 }
