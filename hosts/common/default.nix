@@ -7,6 +7,7 @@
     ./desktop.nix
     ./steam.nix
     ./stylix.nix
+    ./syncthing.nix
   ];
 
   environment.systemPackages = [ pkgs.git pkgs.nushell ];
