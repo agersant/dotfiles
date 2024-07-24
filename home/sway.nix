@@ -72,7 +72,7 @@
       startup = [
         { command = "waybar"; }
         { command = "discord"; }
-        { command = "1password"; }
+        { command = "1password --silent"; }
         { command = "udiskie -s"; }
       ];
 
