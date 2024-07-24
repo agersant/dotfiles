@@ -56,7 +56,6 @@ userSettings = {
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
 	"security.workspace.trust.enabled" = false;
-	"update.mode" = "none";
 	"workbench.tree.enableStickyScroll" = false;
 };
 
@@ -65,6 +64,7 @@ in
 {
 	programs.vscode = {
 		enable = true;
+		enableUpdateCheck = false;
 		keybindings = keybindings;
 		userSettings = userSettings;
 	};
