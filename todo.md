@@ -38,7 +38,7 @@
 - ⬜ Install Freetube
 - ⬜ Install a music player (https://github.com/tramhao/termusic?)
 - ✅ Install a terminal emulator (https://github.com/alacritty/alacritty)
-- ⬜ Install a file browser (https://github.com/sxyazi/yazi? nemo? thunar? dolphin?)
+- ✅ Install a file browser (https://github.com/sxyazi/yazi? nemo? thunar? dolphin?)
 - ⬜ Mount second nvme drive
 - ✅ Mount music & TV library somewhere
 - ✅ Setup syncthing shares into home
