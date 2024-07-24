@@ -15,6 +15,7 @@
     ./thunderbird.nix
     ./vscode.nix
     ./waybar.nix
+    ./yazi.nix
   ];
 
   home.packages = [
