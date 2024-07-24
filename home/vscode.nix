@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 
 let
 
@@ -52,6 +52,7 @@ keybindings = [
 
 userSettings = {
 	"editor.minimap.enabled" = false;
+	"editor.scrollBeyondLastLine" = false;
 	"editor.stickyScroll.enabled" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
@@ -59,13 +60,18 @@ userSettings = {
 	"workbench.tree.enableStickyScroll" = false;
 };
 
+extensions = with pkgs.vscode-extensions; [
+	bbenoist.nix
+	tamasfe.even-better-toml
+];
+
 in
 
 {
 	programs.vscode = {
+		inherit extensions keybindings userSettings;
 		enable = true;
 		enableUpdateCheck = false;
-		keybindings = keybindings;
-		userSettings = userSettings;
 	};
+
 }
