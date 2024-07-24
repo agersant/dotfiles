@@ -28,7 +28,7 @@
 - ✅ Install app launcher (https://github.com/lbonn/rofi? onagre?)
 - ✅ Install 1Password
 - ✅ Setup tray & clock (https://github.com/Alexays/Waybar)
-- ⬜ Setup volume controls
+- ✅ Setup volume controls
 - ✅ Install Discord
 - ✅ Setup wallpaper (https://github.com/danth/stylix ?)
 - ✅ Make dual screen work
