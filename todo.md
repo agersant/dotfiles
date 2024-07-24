@@ -46,7 +46,7 @@
 - ✅ Install Steam
 - ✅ Make Granblue work
 - ✅ Make leverless controller work
-- ⬜ Make frame meter mod work
+- ✅ Make frame meter mod work
 - ✅ Install VSCode
 - 🚧 Configure VSCode (keybinds, settings)
 - ⬜ Install an image viewer
