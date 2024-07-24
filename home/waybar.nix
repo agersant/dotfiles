@@ -19,17 +19,23 @@
                 output = ["DP-1"];
                 modules-left = [ "sway/workspaces" ];
                 modules-center = [ "sway/window" ];
-                modules-right = [ "tray" "wireplumber" "clock" ];
+                modules-right = [ "tray" "custom/audio-sink" "wireplumber" "clock" ];
 
                 tray = {
                     icon-size = 16;
                     spacing = 12;
                 };
 
+                "custom/audio-sink" = {
+                    exec = "${../scripts/get-default-sink}";
+                    exec-on-event = true;
+                    interval = 0.1;
+                    on-click = "${../scripts/cycle-audio-sinks}";
+                };
+
                 wireplumber = {
-                    format = "{icon} {volume}%";
-                    format-muted = " muted";
-                    format-icons = ["" "" ""];
+                    format = "{volume}%";
+                    format-muted = "muted";
 
                     on-click = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
                     on-scroll-up = "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+";

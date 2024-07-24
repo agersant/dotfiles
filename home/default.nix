@@ -11,9 +11,9 @@
     ./firefox.nix
     ./git.nix
     ./nushell
-    ./sway
+    ./sway.nix
     ./vscode.nix
-    ./waybar
+    ./waybar.nix
   ];
 
   home.packages = [

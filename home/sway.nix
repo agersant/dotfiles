@@ -24,7 +24,7 @@
       window.titlebar = false;
     };
     extraConfig = ''
-      bindsym --release Super_L exec nu ${./toggle-launcher}
+      bindsym --release Super_L exec nu ${../scripts/toggle-launcher}
     '';
   };
 

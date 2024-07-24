@@ -1,0 +1,20 @@
+#! /usr/bin/env nu
+
+let known_outputs = [
+    {pattern:'Analog' icon:'x'}
+    {pattern:'Game' icon:'g'}
+];
+
+let audio_status = wpctl status | split row -r "(?m)^Audio$" | get 1 | split row -r "(?m)^Video$" | get 0
+let sinks = $audio_status | split row -r "(?m)Sinks:$" | get 1 | split row -r "(?m)^[^\\w\\d]+$" | get 0
+let sinks = $sinks | lines | parse --regex '.*?(?P<is_default>\*?)\s+?(?P<id>\d+)\. (?P<name>.+?)\s+\[vol: (?P<volume>[.\d]+)\]'
+let sinks = $sinks | update is_default { |sink| $sink.is_default == "*" }
+
+let default_sink = $sinks | where {|sink| $sink.is_default } | first
+
+let matching_output = $known_outputs | where {|output| $default_sink.name =~ $output.pattern }
+if ($matching_output | is-empty) {
+    '?'
+} else {
+    $matching_output | first | get icon
+}
