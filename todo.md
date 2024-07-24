@@ -27,14 +27,14 @@
 - 🚧 Configure Firefox (extensions, search engine, new tab behavior)
 - ✅ Install app launcher (https://github.com/lbonn/rofi? onagre?)
 - ✅ Install 1Password
-- ⬜ Setup tray & clock (https://github.com/Alexays/Waybar)
+- ✅ Setup tray & clock (https://github.com/Alexays/Waybar)
 - ⬜ Setup volume controls
 - ✅ Install Discord
 - ✅ Setup wallpaper (https://github.com/danth/stylix ?)
 - ✅ Make dual screen work
 - ⬜ Add some non-CLI way to turn off the computer
 - ✅ Make audio work
-- ⬜ Make wireless headset work
+- ✅ Make wireless headset work
 - ⬜ Install Freetube
 - ⬜ Install a music player (https://github.com/tramhao/termusic?)
 - ✅ Install a terminal emulator (https://github.com/alacritty/alacritty)
