@@ -9,6 +9,7 @@
   imports = [
     ./alacritty.nix
     ./firefox.nix
+    ./freetube.nix
     ./git.nix
     ./nushell
     ./sway.nix
