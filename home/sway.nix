@@ -12,11 +12,14 @@
         "Mod4+right" = "move right";
         "Mod4+up" = "move up";
         "Mod4+down" = "move down";
-        "Mod4+3" = "exec firefox";        
+        "Mod4+3" = "exec firefox";
+        "Mod4+4" = "exec thunderbird";
       };
       startup = [
-        { command = "discord"; }
         { command = "waybar"; }
+        { command = "discord"; }
+        { command = "1password"; }
+        { command = "udiskie -s"; }
       ];
       floating.titlebar = false;
       gaps.inner = 20;

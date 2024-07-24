@@ -30,7 +30,6 @@
                     format = "{icon} {volume}%";
                     format-icons = ["" "" ""];
                     format-muted = "muted";
-                    max-volume = 150;
 
                     on-click = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
                     on-click-right = "${../scripts/cycle-audio-sinks}";

@@ -12,6 +12,7 @@
     ./git.nix
     ./nushell
     ./sway.nix
+    ./thunderbird.nix
     ./vscode.nix
     ./waybar.nix
   ];
