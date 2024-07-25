@@ -17,7 +17,7 @@
                 spacing = 10;
 
                 output = ["DP-1" "DP-2"];
-                modules-left = [ "sway/workspaces" ];
+                modules-left = [ "wlr/taskbar" ];
                 modules-center = [ "sway/window" ];
                 modules-right = [ "tray" "wireplumber" "clock" ];
 
@@ -37,21 +37,12 @@
                     on-scroll-down = "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-";
                 };
 
-                "sway/workspaces" = {
-                    disable-scroll = true;
-                    format= "{icon}";
-                    format-icons = {
-                        "1"= "";
-                        "2"= "2";
-                        "3"= "";
-                        "4"= "4";
-                        "5"= "";
-                        "6"= "6";
-                        "7"= "";
-                        "8"= "8";
-                        "9"= "9";
-                        "10"= "10";
-                    };
+                "wlr/taskbar" = {
+                    all-outputs = true;
+                    icon-size = 28;
+                    on-click = "activate";
+                    on-click-middle = "close";
+                    sort-by-app-id = true;
                 };
 
             };
