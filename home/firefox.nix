@@ -38,7 +38,7 @@ in {
       Preferences = {
         "extensions.pocket.enabled" = lock-false;
         "browser.search.suggest.enabled" = lock-false;
-        "browser.newtabpage.activity-stream.enabled" = lock-false;
+        "browser.newtabpage.enabled" = lock-false;
         "general.autoScroll" = lock-true;
       };
     };
