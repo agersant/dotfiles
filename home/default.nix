@@ -11,6 +11,7 @@
     ./firefox.nix
     ./freetube.nix
     ./git.nix
+    ./mpv.nix
     ./nushell
     ./rofi.nix
     ./sway.nix
