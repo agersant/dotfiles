@@ -39,6 +39,7 @@ in {
         "extensions.pocket.enabled" = lock-false;
         "browser.search.suggest.enabled" = lock-false;
         "browser.newtabpage.enabled" = lock-false;
+        "browser.startup.homepage" = "";
         "general.autoScroll" = lock-true;
       };
     };
