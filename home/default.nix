@@ -12,6 +12,7 @@
     ./freetube.nix
     ./git.nix
     ./nushell
+    ./rofi.nix
     ./sway.nix
     ./thunderbird.nix
     ./vscode.nix
@@ -22,10 +23,5 @@
   home.packages = [
     pkgs.discord
   ];
-
-  programs.rofi = {
-    enable = true;
-    package = pkgs.rofi-wayland;
-  };
 
 }

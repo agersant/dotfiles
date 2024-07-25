@@ -67,6 +67,8 @@
         "Mod4+Shift+8" = "move container to workspace number 8";
         "Mod4+Shift+9" = "move container to workspace number 9";
         "Mod4+Shift+0" = "move container to workspace number 10";
+
+        "Mod4+Period" = "exec rofi -modi emoji -show emoji -emoji-mode insert_no_copy";
       };
 
       startup = [
