@@ -36,7 +36,7 @@
 - ✅ Make audio work
 - ✅ Make wireless headset work
 - ✅ Install Freetube
-- ⬜ Install a music player (https://github.com/tramhao/termusic?)
+- ❌ Install a music player (https://github.com/tramhao/termusic?)
 - ✅ Install a terminal emulator (https://github.com/alacritty/alacritty)
 - ✅ Install a file browser (https://github.com/sxyazi/yazi? nemo? thunar? dolphin?)
 - ⬜ Mount second nvme drive
@@ -58,7 +58,7 @@
 - ✅ Install a video player (https://github.com/Rafostar/clapper ?)
 - ⬜ Make video recording work (https://github.com/xlmnxp/blue-recorder). Make sure it works in Granblue!
 - ✅ Install a shell designed for humans (https://www.nushell.sh)
-- ⬜ Install a PDF viewer
+- ✅ Install a PDF viewer (browser does it)
 - ⬜ Make printer work 🖨
 - 🚧 Theming ✨ (swayfx? stylix?)
 - ⬜ Customize command prompt (https://starship.rs/)
