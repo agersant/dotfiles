@@ -13,11 +13,8 @@
     ./git.nix
     ./mpv.nix
     ./nushell
-    ./rofi.nix
-    ./sway.nix
     ./thunderbird.nix
     ./vscode.nix
-    ./waybar.nix
     ./yazi.nix
   ];
 

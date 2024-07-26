@@ -1,8 +1,18 @@
 { pkgs, ... }: {
 
   hardware.graphics.enable = true;
-  security.polkit.enable = true;
+  services.xserver.enable = true;
+  services.xserver.desktopManager.budgie.enable = true;
+  services.displayManager.autoLogin.user = "agersant";
 
-  environment.systemPackages = [ pkgs.xdg-utils ];
+  environment.budgie.excludePackages = [
+    pkgs.gnome-terminal
+    pkgs.vlc
+  ];
+
+  environment.systemPackages = [
+    pkgs.adementary-theme
+    pkgs.marwaita-icons
+  ];
 
 }

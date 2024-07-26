@@ -6,6 +6,7 @@
     };
 
     home.packages = [
+        pkgs.font-awesome
         pkgs.ueberzugpp
     ];
 

@@ -2,10 +2,7 @@
 
   imports = [
     ./_1password.nix
-    ./audio.nix
-    ./bluetooth.nix
     ./desktop.nix
-    ./disks.nix
     ./steam.nix
     ./stylix.nix
     ./syncthing.nix
