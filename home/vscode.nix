@@ -54,6 +54,7 @@ userSettings = {
 	"editor.fontLigatures" = true;
 	"editor.fontWeight" = 700;
 	"editor.formatOnSave" = true;
+	"editor.inlayHints.enabled" = "offUnlessPressed";
 	"editor.lineHeight" = 1.6;
 	"editor.minimap.enabled" = false;
 	"editor.scrollBeyondLastLine" = false;
