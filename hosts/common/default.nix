@@ -3,6 +3,7 @@
   imports = [
     ./_1password.nix
     ./desktop.nix
+    ./emote.nix
     ./quickemu.nix
     ./steam.nix
     ./stylix.nix
