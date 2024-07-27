@@ -53,6 +53,7 @@ keybindings = [
 userSettings = {
 	"editor.fontLigatures" = true;
 	"editor.fontWeight" = 700;
+	"editor.formatOnSave" = true;
 	"editor.lineHeight" = 1.6;
 	"editor.minimap.enabled" = false;
 	"editor.scrollBeyondLastLine" = false;
@@ -68,8 +69,10 @@ userSettings = {
 
 extensions = with pkgs.vscode-extensions; [
 	teabyii.ayu
+	mkhl.direnv
 	bbenoist.nix
 	tamasfe.even-better-toml
+	rust-lang.rust-analyzer
 ];
 
 in
