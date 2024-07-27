@@ -60,6 +60,7 @@ userSettings = {
 	"editor.scrollBeyondLastLine" = false;
 	"editor.stickyScroll.enabled" = false;
 	"explorer.confirmDelete" = false;
+	"explorer.confirmDragAndDrop" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
 	"security.workspace.trust.enabled" = false;
