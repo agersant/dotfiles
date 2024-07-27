@@ -10,9 +10,4 @@
     pkgs.vlc
   ];
 
-  environment.systemPackages = [
-    pkgs.adementary-theme
-    pkgs.marwaita-icons
-  ];
-
 }
