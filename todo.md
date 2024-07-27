@@ -61,7 +61,7 @@
 - ✅ Install a PDF viewer (browser does it)
 - ⬜ Make printer work 🖨
 - ✅ Theming ✨ (swayfx? stylix?)
-- ⬜ Customize command prompt (https://starship.rs/)
+- ✅ Customize command prompt (https://starship.rs/)
 - ⬜ Setup music sync to rpi
 - ⬜ Find music tagging software (if player doesn't do it)
 - ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
