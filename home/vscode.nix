@@ -57,6 +57,7 @@ userSettings = {
 	"editor.minimap.enabled" = false;
 	"editor.scrollBeyondLastLine" = false;
 	"editor.stickyScroll.enabled" = false;
+	"explorer.confirmDelete" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
 	"security.workspace.trust.enabled" = false;
