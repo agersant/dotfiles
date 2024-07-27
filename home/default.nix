@@ -11,6 +11,7 @@
     ./firefox.nix
     ./freetube.nix
     ./git.nix
+    ./gtk.nix
     ./mpv.nix
     ./nushell
     ./thunderbird.nix

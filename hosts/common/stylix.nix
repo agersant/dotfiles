@@ -22,6 +22,5 @@
             sha256 = "5jma+DaROy5kMks6lMRovSRWp1wQIFSXM5O/X3iDcEE=";
         };
 
-        targets.gtk.enable = false;
     };
 }

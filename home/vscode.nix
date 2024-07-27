@@ -51,16 +51,22 @@ keybindings = [
 ];
 
 userSettings = {
+	"editor.fontLigatures" = true;
+	"editor.fontWeight" = 700;
+	"editor.lineHeight" = 1.7;
 	"editor.minimap.enabled" = false;
 	"editor.scrollBeyondLastLine" = false;
 	"editor.stickyScroll.enabled" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
 	"security.workspace.trust.enabled" = false;
+	"workbench.colorTheme" = "Ayu Mirage Bordered";
+	"workbench.iconTheme" = "ayu";
 	"workbench.tree.enableStickyScroll" = false;
 };
 
 extensions = with pkgs.vscode-extensions; [
+	teabyii.ayu
 	bbenoist.nix
 	tamasfe.even-better-toml
 ];
@@ -68,6 +74,8 @@ extensions = with pkgs.vscode-extensions; [
 in
 
 {
+	stylix.targets.vscode.enable = false;
+
 	programs.vscode = {
 		inherit extensions keybindings userSettings;
 		enable = true;
