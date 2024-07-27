@@ -20,7 +20,7 @@
 - ✅ Setup passwordless user account (note: has password but auto login)
 - ✅ Setup Home manager
 - ✅ Install window manager (https://swaywm.org/)
-- 🚧 Configure window manager (shortcuts, spacing, layout logic)
+- ✅ Configure window manager (shortcuts, spacing, layout logic)
 - ✅ Make wireless mouse work
 - ✅ Make wireless keyboard work
 - ✅ Install Firefox
@@ -32,7 +32,7 @@
 - ✅ Install Discord
 - ✅ Setup wallpaper (https://github.com/danth/stylix ?)
 - ✅ Make dual screen work
-- ⬜ Add some non-CLI way to turn off the computer
+- ✅ Add some non-CLI way to turn off the computer
 - ✅ Make audio work
 - ✅ Make wireless headset work
 - ✅ Install Freetube
@@ -49,9 +49,9 @@
 - ✅ Make frame meter mod work
 - ✅ Install VSCode
 - ✅ Configure VSCode (keybinds, settings)
-- ⬜ Install an image viewer
+- ✅ Install an image viewer
 - ⬜ Make discord screen sharing work
-- ⬜ Install a screenshot tool (https://github.com/Kirottu/watershot ?)
+- ✅ Install a screenshot tool (https://github.com/Kirottu/watershot ?)
 - ⬜ Make clipboard history work
 - ⬜ Make emoji picker work (ibus?)
 - ⬜ Install a torrent client (deluge?)
@@ -60,11 +60,12 @@
 - ✅ Install a shell designed for humans (https://www.nushell.sh)
 - ✅ Install a PDF viewer (browser does it)
 - ⬜ Make printer work 🖨
-- 🚧 Theming ✨ (swayfx? stylix?)
+- ✅ Theming ✨ (swayfx? stylix?)
 - ⬜ Customize command prompt (https://starship.rs/)
 - ⬜ Setup music sync to rpi
 - ⬜ Find music tagging software (if player doesn't do it)
 - ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
+- 🚧 Frame meter mod dev environment
 
 ## Resources
 

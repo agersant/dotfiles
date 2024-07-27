@@ -14,6 +14,7 @@
     ./gtk.nix
     ./mpv.nix
     ./nushell
+    ./starship.nix
     ./thunderbird.nix
     ./vscode.nix
     ./yazi.nix
