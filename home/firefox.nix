@@ -34,6 +34,7 @@ in {
         in builtins.listToAttrs [
             (extension "ublock-origin" "uBlock0@raymondhill.net")
             (extension "1password-x-password-manager" "{d634138d-c276-4fc8-924b-40a0ea21d284}")
+            (extension "libredirect" "7esoorv3@alefvanoon.anonaddy.me")
         ];
       Preferences = {
         "extensions.pocket.enabled" = lock-false;
