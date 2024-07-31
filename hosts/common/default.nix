@@ -4,6 +4,7 @@
     ./_1password.nix
     ./desktop.nix
     ./emote.nix
+    ./printing.nix
     ./quickemu.nix
     ./steam.nix
     ./stylix.nix

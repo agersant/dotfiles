@@ -59,7 +59,7 @@
 - ⬜ Make video recording work (https://github.com/xlmnxp/blue-recorder). Make sure it works in Granblue!
 - ✅ Install a shell designed for humans (https://www.nushell.sh)
 - ✅ Install a PDF viewer (browser does it)
-- ⬜ Make printer work 🖨
+- ✅ Make printer work 🖨
 - ✅ Theming ✨ (swayfx? stylix?)
 - ✅ Customize command prompt (https://starship.rs/)
 - ⬜ Setup music sync to rpi
