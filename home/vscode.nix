@@ -75,6 +75,7 @@ extensions = with pkgs.vscode-extensions; [
 	bbenoist.nix
 	tamasfe.even-better-toml
 	rust-lang.rust-analyzer
+	vue.volar
 ];
 
 in
