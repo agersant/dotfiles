@@ -67,6 +67,9 @@ userSettings = {
 	"workbench.colorTheme" = "Ayu Mirage Bordered";
 	"workbench.iconTheme" = "ayu";
 	"workbench.tree.enableStickyScroll" = false;
+	"[vue]" = {
+    	"editor.defaultFormatter" = "Vue.volar";
+  	};
 };
 
 extensions = with pkgs.vscode-extensions; [
