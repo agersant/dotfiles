@@ -35,6 +35,7 @@ in {
             (extension "ublock-origin" "uBlock0@raymondhill.net")
             (extension "1password-x-password-manager" "{d634138d-c276-4fc8-924b-40a0ea21d284}")
             (extension "libredirect" "7esoorv3@alefvanoon.anonaddy.me")
+            (extension "vue-js-devtools" "{5caff8cc-3d2e-4110-a88a-003cc85b3858}")
         ];
       Preferences = {
         "extensions.pocket.enabled" = lock-false;
