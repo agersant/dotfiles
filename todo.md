@@ -50,13 +50,13 @@
 - ✅ Install VSCode
 - ✅ Configure VSCode (keybinds, settings)
 - ✅ Install an image viewer
-- ⬜ Make discord screen sharing work
+- ✅ Make discord screen sharing work
 - ✅ Install a screenshot tool (https://github.com/Kirottu/watershot ?)
 - ⬜ Make clipboard history work
 - ✅ Make emoji picker work (ibus?)
 - ⬜ Install a torrent client (deluge?)
 - ✅ Install a video player (https://github.com/Rafostar/clapper ?)
-- ⬜ Make video recording work (https://github.com/xlmnxp/blue-recorder). Make sure it works in Granblue!
+- ✅ Make video recording work (https://github.com/xlmnxp/blue-recorder). Make sure it works in Granblue!
 - ✅ Install a shell designed for humans (https://www.nushell.sh)
 - ✅ Install a PDF viewer (browser does it)
 - ✅ Make printer work 🖨
