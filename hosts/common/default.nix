@@ -6,6 +6,7 @@
     ./emote.nix
     ./printing.nix
     ./quickemu.nix
+    ./screen-recording.nix
     ./steam.nix
     ./stylix.nix
     ./syncthing.nix
