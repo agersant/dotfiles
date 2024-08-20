@@ -3,6 +3,7 @@
   imports = [
     ../common
     ./hardware-configuration.nix
+    ./pi.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
