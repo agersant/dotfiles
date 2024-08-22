@@ -23,6 +23,11 @@ in {
       DisableTelemetry = true;
       DisableFirefoxStudies = true;
       DisablePocket = true;
+      FirefoxSuggest = {
+        WebSuggestions = false;
+        SponsoredSuggestions = false;
+        ImproveSuggest = false;
+      };
       ExtensionSettings = 
         let extension = shortId: uuid: {
             name = uuid;
