@@ -10,6 +10,7 @@
     ./steam.nix
     ./stylix.nix
     ./syncthing.nix
+    ./transmission.nix
   ];
 
   environment.systemPackages = [ pkgs.git pkgs.nushell pkgs.unzip ];
