@@ -19,7 +19,6 @@
     ./starship.nix
     ./thunderbird.nix
     ./vscode.nix
-    ./yazi.nix
   ];
 
 }
