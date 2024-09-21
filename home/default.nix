@@ -9,6 +9,7 @@
   imports = [
     ./alacritty.nix
     ./direnv.nix
+    ./discord.nix
     ./firefox.nix
     ./freetube.nix
     ./git.nix
@@ -19,10 +20,6 @@
     ./thunderbird.nix
     ./vscode.nix
     ./yazi.nix
-  ];
-
-  home.packages = [
-    pkgs.discord
   ];
 
 }
