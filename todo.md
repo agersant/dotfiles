@@ -39,7 +39,7 @@
 - ❌ Install a music player (https://github.com/tramhao/termusic?)
 - ✅ Install a terminal emulator (https://github.com/alacritty/alacritty)
 - ✅ Install a file browser (https://github.com/sxyazi/yazi? nemo? thunar? dolphin?)
-- ⬜ Mount second nvme drive
+- ✅ Mount second nvme drive
 - ✅ Mount music & TV library somewhere
 - ✅ Setup syncthing shares into home
 - ✅ Install & configure email client (Thunderbird)
@@ -63,7 +63,7 @@
 - ✅ Theming ✨ (swayfx? stylix?)
 - ✅ Customize command prompt (https://starship.rs/)
 - ✅ Setup music sync to rpi
-- ⬜ Find music tagging software (if player doesn't do it)
+- ✅ Find music tagging software (if player doesn't do it)
 - ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
 - 🚧 Frame meter mod dev environment
 
