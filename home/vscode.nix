@@ -79,6 +79,7 @@ extensions = with pkgs.vscode-extensions; [
 	tamasfe.even-better-toml
 	rust-lang.rust-analyzer
 	vue.volar
+	dart-code.flutter
 ];
 
 in
