@@ -4,6 +4,7 @@
     ./_1password.nix
     ./desktop.nix
     ./emote.nix
+    ./picard.nix
     ./printing.nix
     ./quickemu.nix
     ./screen-recording.nix
