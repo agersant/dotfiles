@@ -12,9 +12,13 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
+    agenix = {
+      url = "github:ryantm/agenix";
+      inputs.darwin.follows = "";
+    };
   };
 
-  outputs = { nixpkgs, home-manager, stylix, ... }@inputs: 
+  outputs = { nixpkgs, home-manager, stylix, agenix, ... }@inputs: 
 
     let systems = [
       {
@@ -33,6 +37,7 @@
                 ./hosts/${system.name}
                 home-manager.nixosModules.home-manager
                 stylix.nixosModules.stylix
+                agenix.nixosModules.default
               ];              
             };
           }

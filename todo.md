@@ -24,7 +24,7 @@
 - ✅ Make wireless mouse work
 - ✅ Make wireless keyboard work
 - ✅ Install Firefox
-- 🚧 Configure Firefox (extensions, search engine, new tab behavior)
+- ✅ Configure Firefox (extensions, search engine, new tab behavior)
 - ✅ Install app launcher (https://github.com/lbonn/rofi? onagre?)
 - ✅ Install 1Password
 - ✅ Setup tray & clock (https://github.com/Alexays/Waybar)
@@ -64,7 +64,7 @@
 - ✅ Customize command prompt (https://starship.rs/)
 - ✅ Setup music sync to rpi
 - ✅ Find music tagging software (if player doesn't do it)
-- ⬜ Automate off-site backups for music & syncthing'ed directories (borgbase instead of glacier?)
+- 🚧 Automate off-site backups for music & syncthing'ed directories (borgbase). Still need to get rid of glacier.
 - 🚧 Frame meter mod dev environment
 
 ## Resources
