@@ -1,22 +1,10 @@
 { pkgs, ... }: {
     
-    environment.systemPackages = with pkgs; [ nfs-utils ];
-    boot.initrd = {
-        supportedFilesystems = [ "nfs" ];
-        kernelModules = [ "nfs" ];
-    };
-
-    fileSystems."/mnt/pi" = {
-        device = "192.168.1.77:/media/music_drive";
-        fsType = "nfs";
-        options = [ "x-systemd.automount" "noauto" "x-systemd.idle-timeout=600" ];
-    };
-
     systemd.services.copy-music= {
         serviceConfig.Type = "oneshot";
         path = with pkgs; [ rsync ];
         script = ''
-            rsync -ah --progress /home/agersant/music/* /mnt/pi/music
+            rsync --rsh \'ssh -p 22222\' --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/resin-data/music/_data
         '';
     };
 
