@@ -4,6 +4,7 @@
     ./_1password.nix
     ./desktop.nix
     ./emote.nix
+    ./fooyin.nix
     ./picard.nix
     ./printing.nix
     ./quickemu.nix
