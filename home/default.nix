@@ -10,10 +10,10 @@
     ./alacritty.nix
     ./direnv.nix
     ./discord.nix
-    ./firefox.nix
     ./freetube.nix
     ./git.nix
     ./gtk.nix
+    ./librewolf.nix
     ./mpv.nix
     ./nushell
     ./starship.nix

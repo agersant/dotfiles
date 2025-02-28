@@ -1,33 +1,10 @@
-{...}:
+{pkgs, ...}:
 
-let lock-false = {
-  Value = false;
-  Status = "locked";
-};
+{
 
-lock-true = {
-  Value = true;
-  Status = "locked";
-};
-
-lock-empty-string = {
-  Value = "";
-  Status = "locked";
-};
-
-in {
-
-  programs.firefox = {
+  programs.librewolf = {
     enable = true;
     policies = {
-      DisableTelemetry = true;
-      DisableFirefoxStudies = true;
-      DisablePocket = true;
-      FirefoxSuggest = {
-        WebSuggestions = false;
-        SponsoredSuggestions = false;
-        ImproveSuggest = false;
-      };
       ExtensionSettings = 
         let extension = shortId: uuid: {
             name = uuid;
@@ -42,13 +19,14 @@ in {
             (extension "libredirect" "7esoorv3@alefvanoon.anonaddy.me")
             (extension "vue-js-devtools" "{5caff8cc-3d2e-4110-a88a-003cc85b3858}")
         ];
-      Preferences = {
-        "extensions.pocket.enabled" = lock-false;
-        "browser.search.suggest.enabled" = lock-false;
-        "browser.newtabpage.enabled" = lock-false;
-        "browser.startup.homepage" = "";
-        "general.autoScroll" = lock-true;
-      };
+    };
+    settings = {
+      "browser.newtabpage.enabled" = false;
+      "browser.startup.homepage" = "";
+      "general.autoScroll" = true;
+      "middlemouse.paste" = false;
+      "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
+      "webgl.disabled" = false;
     };
   };
 
