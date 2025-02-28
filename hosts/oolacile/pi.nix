@@ -3,9 +3,7 @@
     systemd.services.copy-music= {
         serviceConfig.Type = "oneshot";
         path = with pkgs; [ rsync ];
-        script = ''
-            rsync --rsh \'ssh -p 22222\' --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/resin-data/music/_data
-        '';
+        script = "rsync --rsh 'ssh -p 22222' --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/var/lib/docker/volumes/1878999_music/_data";
     };
 
     systemd.timers.copy-music = {
