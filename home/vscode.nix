@@ -88,9 +88,11 @@ in
 	stylix.targets.vscode.enable = false;
 
 	programs.vscode = {
-		inherit extensions keybindings userSettings;
 		enable = true;
-		enableUpdateCheck = false;
+		profiles.default = {
+			inherit extensions keybindings userSettings;
+			enableUpdateCheck = false;
+		};
 	};
 
 }
