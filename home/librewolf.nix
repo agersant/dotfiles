@@ -25,6 +25,7 @@
       "browser.startup.homepage" = "";
       "general.autoScroll" = true;
       "middlemouse.paste" = false;
+      "privacy.resistFingerprinting" = false;
       "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
       "webgl.disabled" = false;
     };
