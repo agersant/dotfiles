@@ -51,6 +51,7 @@ keybindings = [
 ];
 
 userSettings = {
+	"chat.commandCenter.enabled" =  false;
 	"editor.fontLigatures" = true;
 	"editor.fontWeight" = 700;
 	"editor.formatOnSave" = true;
