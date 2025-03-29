@@ -20,15 +20,21 @@
             (extension "vue-js-devtools" "{5caff8cc-3d2e-4110-a88a-003cc85b3858}")
         ];
     };
-    settings = {
-      "browser.newtabpage.enabled" = false;
-      "browser.startup.homepage" = "";
-      "general.autoScroll" = true;
-      "middlemouse.paste" = false;
-      "privacy.resistFingerprinting" = false;
-      "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
-      "webgl.disabled" = false;
+    profiles = {
+      default = {
+        settings = {
+          "browser.newtabpage.enabled" = false;
+          "browser.startup.homepage" = "";
+          "general.autoScroll" = true;
+          "middlemouse.paste" = false;
+          "privacy.resistFingerprinting" = false;
+          "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
+          "webgl.disabled" = false;
+        };
+      };
     };
   };
+
+  stylix.targets.librewolf.profileNames = [ "default" ];
 
 }
