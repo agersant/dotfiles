@@ -1,12 +1,15 @@
 { pkgs, ... }: {
     
-    systemd.services.copy-music= {
+    systemd.user.services.copy-music= {
         serviceConfig.Type = "oneshot";
-        path = with pkgs; [ rsync ];
+        path = with pkgs; [
+            rsync
+            openssh
+        ];
         script = "rsync --rsh 'ssh -p 22222' --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/var/lib/docker/volumes/1878999_music/_data";
     };
 
-    systemd.timers.copy-music = {
+    systemd.user.timers.copy-music = {
         wantedBy = [ "timers.target" ];
         partOf = [ "copy-music.service" ];
         timerConfig = {
