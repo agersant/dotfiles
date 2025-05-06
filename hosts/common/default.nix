@@ -18,12 +18,15 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nixpkgs.config.allowUnfree = true;
 
+  programs.gamemode.enable = true;
+
   users.users.agersant = {
     isNormalUser = true;
     description = "Antoine Gersant";
     extraGroups = [
       "input"
       "wheel"
+      "gamemode"
     ];
     shell = pkgs.nushell;
   };
