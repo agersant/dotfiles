@@ -64,6 +64,7 @@ userSettings = {
 	"explorer.confirmDragAndDrop" = false;
 	"git.confirmSync" =  false;
 	"git.enableSmartCommit" = true;
+	"rust-analyzer.check.command" = "clippy";
 	"security.workspace.trust.enabled" = false;
 	"workbench.colorTheme" = "Ayu Mirage Bordered";
 	"workbench.iconTheme" = "ayu";
