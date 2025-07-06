@@ -18,6 +18,7 @@
             (extension "1password-x-password-manager" "{d634138d-c276-4fc8-924b-40a0ea21d284}")
             (extension "libredirect" "7esoorv3@alefvanoon.anonaddy.me")
             (extension "vue-js-devtools" "{5caff8cc-3d2e-4110-a88a-003cc85b3858}")
+            (extension "atom-file-icons-web" "{f0503c92-a634-43fd-912d-63c8fde00586}")
         ];
     };
     profiles = {
