@@ -18,15 +18,25 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
+    nix4vscode = {
+        url = "github:nix-community/nix4vscode";
+        inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { nixpkgs, home-manager, stylix, agenix, ... }@inputs: 
+  outputs = { nixpkgs, home-manager, stylix, agenix, nix4vscode, ... }@inputs: 
 
     let systems = [
       {
         name = "oolacile";
       }
     ];
+
+    pkgs = {
+      overlays = [
+          nix4vscode.overlays.default
+      ];
+    };
 
     in {
       nixosConfigurations = builtins.listToAttrs (builtins.map
@@ -36,11 +46,12 @@
             value = nixpkgs.lib.nixosSystem {
               specialArgs = { inherit inputs; };
               modules = [
+                { nixpkgs = pkgs; }
                 ./hosts/${system.name}
                 home-manager.nixosModules.home-manager
                 stylix.nixosModules.stylix
                 agenix.nixosModules.default
-              ];              
+              ];
             };
           }
         )

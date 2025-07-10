@@ -74,14 +74,15 @@ userSettings = {
   	};
 };
 
-extensions = with pkgs.vscode-extensions; [
-	teabyii.ayu
-	mkhl.direnv
-	bbenoist.nix
-	tamasfe.even-better-toml
-	rust-lang.rust-analyzer
-	vue.volar
-	dart-code.flutter
+extensions = pkgs.nix4vscode.forVscode [
+	"teabyii.ayu"
+	"mkhl.direnv"
+	"bbenoist.nix"
+	"tamasfe.even-better-toml"
+	"rust-lang.rust-analyzer"
+	"vue.volar"
+	"dart-code.flutter"
+	"rhaiscript.vscode-rhai"
 ];
 
 in
