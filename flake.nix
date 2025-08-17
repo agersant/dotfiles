@@ -10,7 +10,6 @@
     stylix = {
       url = "github:danth/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";
     };
     agenix = {
       url = "github:ryantm/agenix";
