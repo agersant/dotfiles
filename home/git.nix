@@ -2,11 +2,13 @@
 
   programs.git = {
     enable = true;
-    userName = "Antoine Gersant";
-    userEmail = "antoine.gersant@lesforges.org";
-    extraConfig = {
-     credential = { helper = "store"; };
-     pull = { rebase = true; };
+    settings = {
+      credential = { helper = "store"; };
+      pull = { rebase = true; };
+      user = {
+        name = "Antoine Gersant";
+        email = "antoine.gersant@lesforges.org";
+      };
     };
   };
 
