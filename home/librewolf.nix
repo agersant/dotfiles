@@ -32,6 +32,16 @@
           "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
           "webgl.disabled" = false;
         };
+        search = {
+          force = true;
+          engines = {
+            startpage = {
+              name = "Startpage";
+              urls = [{ template = "https://www.startpage.com/sp/search?query={searchTerms}"; }];
+            };
+          };
+          default = "startpage";
+        };
       };
     };
   };
