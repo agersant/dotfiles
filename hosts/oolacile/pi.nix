@@ -6,7 +6,7 @@
             rsync
             openssh
         ];
-        script = "rsync --rsh 'ssh -p 22222' --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/var/lib/docker/volumes/1878999_music/_data";
+        script = "rsync --rsh 'ssh -p 22222' --delete --recursive --times --progress /home/agersant/music/* gh_agersant@192.168.1.77:/var/lib/docker/volumes/1878999_music/_data";
     };
 
     systemd.user.timers.copy-music = {
