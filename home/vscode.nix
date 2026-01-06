@@ -51,7 +51,7 @@ keybindings = [
 ];
 
 userSettings = {
-	"chat.commandCenter.enabled" =  false;
+	"chat.disableAIfeatures" = true;
 	"editor.fontLigatures" = true;
 	"editor.fontWeight" = 700;
 	"editor.formatOnSave" = true;
@@ -92,6 +92,7 @@ in
 
 	programs.vscode = {
 		enable = true;
+		package = pkgs.vscodium;
 		profiles.default = {
 			inherit extensions keybindings userSettings;
 			enableUpdateCheck = false;
