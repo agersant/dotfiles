@@ -31,6 +31,7 @@
           "privacy.resistFingerprinting" = false;
           "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
           "webgl.disabled" = false;
+          "widget.gtk.middle-click-enabled" = false; # https://github.com/BuddiesOfBudgie/budgie-desktop/issues/783
         };
         search = {
           force = true;
