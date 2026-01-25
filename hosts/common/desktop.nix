@@ -2,8 +2,8 @@
 
   hardware.graphics.enable = true;
   services.xserver.enable = true;
-  services.xserver.desktopManager.budgie.enable = true;
-  services.xserver.desktopManager.budgie.extraGSettingsOverrides = ''
+  services.desktopManager.budgie.enable = true;
+  services.desktopManager.budgie.extraGSettingsOverrides = ''
     [org.gnome.desktop.wm.preferences]
     mouse-button-modifier="<Super>"
   '';
