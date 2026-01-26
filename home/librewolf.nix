@@ -26,12 +26,11 @@
         settings = {
           "browser.newtabpage.enabled" = false;
           "browser.startup.homepage" = "";
-          "general.autoScroll" = true;
+          "general.autoScroll" = false;  # https://github.com/BuddiesOfBudgie/budgie-desktop/issues/783
           "middlemouse.paste" = false;
           "privacy.resistFingerprinting" = false;
           "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
           "webgl.disabled" = false;
-          "widget.gtk.middle-click-enabled" = false; # https://github.com/BuddiesOfBudgie/budgie-desktop/issues/783
         };
         search = {
           force = true;
