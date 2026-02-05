@@ -64,7 +64,7 @@
 - ✅ Customize command prompt (https://starship.rs/)
 - ✅ Setup music sync to rpi
 - ✅ Find music tagging software (if player doesn't do it)
-- 🚧 Automate off-site backups for music & syncthing'ed directories (borgbase). Still need to get rid of glacier.
+- ✅ Automate off-site backups for music & syncthing'ed directories (borgbase). Still need to get rid of glacier.
 - 🚧 Frame meter mod dev environment
 
 ## Resources
