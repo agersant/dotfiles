@@ -26,7 +26,7 @@
         settings = {
           "browser.newtabpage.enabled" = false;
           "browser.startup.homepage" = "";
-          "general.autoScroll" = false;  # https://github.com/BuddiesOfBudgie/budgie-desktop/issues/783
+          "general.autoScroll" = true;
           "middlemouse.paste" = false;
           "privacy.resistFingerprinting" = false;
           "privacy.clearOnShutdown_v2.cookiesAndStorage" = false;
