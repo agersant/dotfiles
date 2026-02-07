@@ -6,4 +6,9 @@
   services.desktopManager.cosmic.enable = true;
   services.displayManager.autoLogin.user = "agersant";
 
+  environment.cosmic.excludePackages = with pkgs; [
+    cosmic-player
+    cosmic-term
+  ];
+
 }
