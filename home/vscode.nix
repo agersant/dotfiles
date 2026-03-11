@@ -82,7 +82,8 @@ extensions = pkgs.nix4vscode.forVscode [
 	"rust-lang.rust-analyzer"
 	"vue.volar"
 	"dart-code.flutter"
-	"rhaiscript.vscode-rhai"
+	"nefrob.vscode-just-syntax"
+	"sumneko.lua"
 ];
 
 in
