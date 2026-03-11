@@ -13,6 +13,7 @@
     ./stylix.nix
     ./syncthing.nix
     ./transmission.nix
+    ./vipsdisp.nix
   ];
 
   environment.systemPackages = [ pkgs.git pkgs.nushell pkgs.unzip ];
