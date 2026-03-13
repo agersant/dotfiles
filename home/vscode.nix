@@ -83,7 +83,6 @@ extensions = pkgs.nix4vscode.forVscode [
 	"vue.volar"
 	"dart-code.flutter"
 	"nefrob.vscode-just-syntax"
-	"sumneko.lua"
 ];
 
 in
