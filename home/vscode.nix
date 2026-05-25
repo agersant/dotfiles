@@ -90,9 +90,8 @@ in
 {
 	stylix.targets.vscode.enable = false;
 
-	programs.vscode = {
+	programs.vscodium = {
 		enable = true;
-		package = pkgs.vscodium;
 		profiles.default = {
 			inherit extensions keybindings userSettings;
 			enableUpdateCheck = false;
