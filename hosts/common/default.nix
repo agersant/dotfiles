@@ -2,6 +2,7 @@
 
   imports = [
     ./_1password.nix
+    ./audacity.nix
     ./desktop.nix
     ./emote.nix
     ./picard.nix
