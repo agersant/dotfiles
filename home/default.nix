@@ -16,6 +16,7 @@
     ./librewolf.nix
     ./mpv.nix
     ./nushell
+    ./obs.nix
     ./starship.nix
     ./thunderbird.nix
     ./vscode.nix
