@@ -11,7 +11,6 @@
     ./quickemu.nix
     ./screen-recording.nix
     ./steam.nix
-    ./stylix.nix
     ./syncthing.nix
     ./transmission.nix
     ./vipsdisp.nix

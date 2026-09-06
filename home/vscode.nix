@@ -88,8 +88,6 @@ extensions = pkgs.nix4vscode.forVscode [
 in
 
 {
-	stylix.targets.vscodium.enable = false;
-
 	programs.vscodium = {
 		enable = true;
 		profiles.default = {
