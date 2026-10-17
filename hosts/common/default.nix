@@ -5,6 +5,7 @@
     ./audacity.nix
     ./desktop.nix
     ./emote.nix
+    ./flowblade.nix
     ./picard.nix
     ./printing.nix
     ./quickemu.nix
@@ -12,6 +13,7 @@
     ./steam.nix
     ./syncthing.nix
     ./transmission.nix
+    ./tuxguitar.nix
     ./vipsdisp.nix
   ];
 
