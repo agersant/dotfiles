@@ -6,7 +6,6 @@
     ./desktop.nix
     ./emote.nix
     ./picard.nix
-    ./pince.nix
     ./printing.nix
     ./quickemu.nix
     ./screen-recording.nix
