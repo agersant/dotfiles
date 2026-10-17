@@ -9,9 +9,7 @@
     };
     agenix = {
       url = "github:ryantm/agenix";
-      inputs.darwin.follows = "";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";
     };
     nix4vscode = {
         url = "github:nix-community/nix4vscode";
