@@ -38,6 +38,7 @@ in
       };
       show_whitespaces = "none";
       git = {
+        split_diff = true;
         inline_blame = {
           enabled = false;
         };
