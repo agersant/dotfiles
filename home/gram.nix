@@ -1,7 +1,8 @@
-{...}: {
+{pkgs, ...}: {
 
   programs.gram = {
     enable = true;
+
     settings = {
       base_keymap = "VSCode";
 
@@ -30,6 +31,11 @@
         };
       }
     ];
+
+    extraPackages = [
+        pkgs.nil
+        pkgs.vscode-langservers-extracted
+      ];
   };
 
 }
