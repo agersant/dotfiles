@@ -6,7 +6,9 @@
 }:
 let
   extensions = with gram-extensions; [
+    dart
     vscode-icons
+    vue
   ];
   extensions-dir = gram-extensions.linkGramExtensions extensions;
 in
@@ -57,9 +59,13 @@ in
         };
       }
     ];
-    extraPackages = [
-      pkgs.nil
-      pkgs.vscode-langservers-extracted
+    extraPackages = with pkgs; [
+      nil
+      nodejs
+      tailwindcss-language-server
+      vscode-langservers-extracted
+      vtsls
+      vue-language-server
     ];
   };
 
