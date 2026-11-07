@@ -29,7 +29,6 @@
             value = nixpkgs.lib.nixosSystem {
               specialArgs = { inherit inputs; };
               modules = [
-                { nixpkgs = pkgs; }
                 ./hosts/${system.name}
                 home-manager.nixosModules.home-manager
                 agenix.nixosModules.default
