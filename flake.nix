@@ -11,32 +11,49 @@
       url = "github:ryantm/agenix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    gram-extensions = {
+      url = "https://codeberg.org/niklaskorz/nix-gram-extensions/archive/main.tar.gz";
+      # inputs.nixpkgs.follows = "nixpkgs"; Not possible until https://github.com/NixOS/nixpkgs/pull/537433 reaches input nixpkgs
+    };
   };
 
-  outputs = { nixpkgs, home-manager, agenix, ... }@inputs:
+  outputs =
+    {
+      nixpkgs,
+      home-manager,
+      agenix,
+      gram-extensions,
+      ...
+    }@inputs:
 
-    let systems = [
-      {
-        name = "oolacile";
-      }
-    ];
+    let
+      systems = [
+        {
+          name = "oolacile";
+          arch = "x86_64-linux";
+        }
+      ];
 
-    in {
-      nixosConfigurations = builtins.listToAttrs (builtins.map
-        (
-          system: {
-            name = system.name;
-            value = nixpkgs.lib.nixosSystem {
-              specialArgs = { inherit inputs; };
-              modules = [
-                ./hosts/${system.name}
-                home-manager.nixosModules.home-manager
-                agenix.nixosModules.default
-              ];
+    in
+    {
+      nixosConfigurations = builtins.listToAttrs (
+        builtins.map (system: {
+          name = system.name;
+          value = nixpkgs.lib.nixosSystem rec {
+            specialArgs = {
+              inherit inputs;
+              gram-extensions = gram-extensions.packages.${system.arch};
             };
-          }
-        )
-        systems
+            modules = [
+              ./hosts/${system.name}
+              agenix.nixosModules.default
+              home-manager.nixosModules.home-manager
+              {
+                home-manager.extraSpecialArgs = inputs // specialArgs;
+              }
+            ];
+          };
+        }) systems
       );
     };
 

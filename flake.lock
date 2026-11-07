@@ -20,6 +20,22 @@
         "type": "github"
       }
     },
+    "gram-extensions": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1794083706,
+        "narHash": "sha256-7+KyIJWHwyqmPu9foOAnAE/XOsKKlzh6/6JLtesfsro=",
+        "rev": "fffc345f4afb1f5cec05b45fc414eb1c09c18310",
+        "type": "tarball",
+        "url": "https://codeberg.org/api/v1/repos/niklaskorz/nix-gram-extensions/archive/fffc345f4afb1f5cec05b45fc414eb1c09c18310.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://codeberg.org/niklaskorz/nix-gram-extensions/archive/main.tar.gz"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -42,6 +58,22 @@
     },
     "nixpkgs": {
       "locked": {
+        "lastModified": 1783503551,
+        "narHash": "sha256-bKMNrMZd/B56gE31iFABBHTbkzAptLy7G8G235yOv8Q=",
+        "owner": "niklaskorz",
+        "repo": "nixpkgs",
+        "rev": "6da901a408ae91ee140bc8e94081d758f0a73126",
+        "type": "github"
+      },
+      "original": {
+        "owner": "niklaskorz",
+        "ref": "wasip2-rustc",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
         "lastModified": 1793876309,
         "narHash": "sha256-Wojg9lIH/hDH91iDVH2/EPw8oDSpxjxhXONbU1yf4Zg=",
         "owner": "nixos",
@@ -59,8 +91,9 @@
     "root": {
       "inputs": {
         "agenix": "agenix",
+        "gram-extensions": "gram-extensions",
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs_2"
       }
     }
   },
