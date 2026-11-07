@@ -17,4 +17,10 @@
 
   system.stateVersion = "24.05";
 
+  nix.gc = {
+    automatic = true;
+    randomizedDelaySec = "14m";
+    options = "--delete-older-than 10d";
+  };
+
 }
