@@ -17,7 +17,7 @@
     };
   };
 
-  outputs = { nixpkgs, home-manager, agenix, nix4vscode, ... }@inputs: 
+  outputs = { nixpkgs, home-manager, agenix, nix4vscode, ... }@inputs:
 
     let systems = [
       {
@@ -33,7 +33,7 @@
 
     in {
       nixosConfigurations = builtins.listToAttrs (builtins.map
-        ( 
+        (
           system: {
             name = system.name;
             value = nixpkgs.lib.nixosSystem {

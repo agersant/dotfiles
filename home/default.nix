@@ -12,6 +12,7 @@
     ./discord.nix
     ./freetube.nix
     ./git.nix
+    ./gram.nix
     ./gtk.nix
     ./librewolf.nix
     ./mpv.nix
