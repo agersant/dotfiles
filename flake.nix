@@ -11,25 +11,15 @@
       url = "github:ryantm/agenix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nix4vscode = {
-        url = "github:nix-community/nix4vscode";
-        inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = { nixpkgs, home-manager, agenix, nix4vscode, ... }@inputs:
+  outputs = { nixpkgs, home-manager, agenix, ... }@inputs:
 
     let systems = [
       {
         name = "oolacile";
       }
     ];
-
-    pkgs = {
-      overlays = [
-          nix4vscode.overlays.default
-      ];
-    };
 
     in {
       nixosConfigurations = builtins.listToAttrs (builtins.map

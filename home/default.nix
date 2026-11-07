@@ -20,7 +20,6 @@
     ./obs.nix
     ./starship.nix
     ./thunderbird.nix
-    ./vscode.nix
   ];
 
 }
