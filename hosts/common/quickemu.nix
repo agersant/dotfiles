@@ -1,7 +1,7 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [
-        pkgs.quickemu
-    ];
+  environment.systemPackages = [
+    pkgs.quickemu
+  ];
 
 }

@@ -1,5 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [ pkgs.audacity ];
+  environment.systemPackages = [ pkgs.audacity ];
 
 }

@@ -1,8 +1,8 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    gtk.iconTheme = {
-        package = pkgs.marwaita-icons;
-        name = "Marwaita-Dark";
-    };
+  gtk.iconTheme = {
+    package = pkgs.marwaita-icons;
+    name = "Marwaita-Dark";
+  };
 
 }

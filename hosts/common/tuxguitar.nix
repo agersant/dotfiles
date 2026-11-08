@@ -1,5 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [ pkgs.tuxguitar ];
+  environment.systemPackages = [ pkgs.tuxguitar ];
 
 }

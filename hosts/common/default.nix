@@ -17,8 +17,15 @@
     ./vipsdisp.nix
   ];
 
-  environment.systemPackages = [ pkgs.git pkgs.nushell pkgs.unzip ];
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  environment.systemPackages = [
+    pkgs.git
+    pkgs.nushell
+    pkgs.unzip
+  ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
   nixpkgs.config.allowUnfree = true;
 
   programs.gamemode.enable = true;

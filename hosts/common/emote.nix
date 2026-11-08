@@ -1,5 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [ pkgs.emote ];
+  environment.systemPackages = [ pkgs.emote ];
 
 }

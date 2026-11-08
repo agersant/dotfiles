@@ -1,7 +1,7 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [
-        pkgs.picard
-    ];
+  environment.systemPackages = [
+    pkgs.picard
+  ];
 
 }

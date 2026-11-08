@@ -1,5 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [ pkgs.flowblade ];
+  environment.systemPackages = [ pkgs.flowblade ];
 
 }

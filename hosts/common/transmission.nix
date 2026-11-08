@@ -1,5 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
 
-    environment.systemPackages = [ pkgs.transmission_4-gtk ];
+  environment.systemPackages = [ pkgs.transmission_4-gtk ];
 
 }
