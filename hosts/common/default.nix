@@ -14,7 +14,6 @@
     ./syncthing.nix
     ./transmission.nix
     ./tuxguitar.nix
-    ./vipsdisp.nix
   ];
 
   environment.systemPackages = [
