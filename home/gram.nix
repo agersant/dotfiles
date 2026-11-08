@@ -45,6 +45,12 @@ in
           enabled = false;
         };
       };
+
+      languages = {
+        TOML = {
+          format_on_save = "off";
+        };
+      };
     };
 
     keymaps = [
@@ -62,7 +68,9 @@ in
     extraPackages = with pkgs; [
       nil
       nodejs
+      package-version-server
       tailwindcss-language-server
+      tombi
       vscode-langservers-extracted
       vtsls
       vue-language-server
