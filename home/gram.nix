@@ -45,6 +45,9 @@ in
           enabled = false;
         };
       };
+      tab_bar = {
+        show_nav_history_buttons = false;
+      };
 
       languages = {
         TOML = {
@@ -62,6 +65,8 @@ in
           ctrl-shift-down = "editor::MoveLineDown";
           ctrl-d = "editor::DuplicateLineDown";
           ctrl-q = "editor::ToggleComments";
+          alt-left = "pane::GoBack";
+          alt-right = "pane::GoForward";
         };
       }
     ];
