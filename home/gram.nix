@@ -79,6 +79,7 @@ in
       vscode-langservers-extracted
       vtsls
       vue-language-server
+      yaml-language-server
     ];
   };
 
