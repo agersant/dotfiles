@@ -65,6 +65,7 @@ in
           ctrl-shift-down = "editor::MoveLineDown";
           ctrl-d = "editor::DuplicateLineDown";
           ctrl-q = "editor::ToggleComments";
+          f4 = "editor::GoToDefinition";
           alt-left = "pane::GoBack";
           alt-right = "pane::GoForward";
         };
