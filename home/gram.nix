@@ -54,6 +54,11 @@ in
           format_on_save = "off";
         };
       };
+      lsp = {
+        nil.initialization_options = {
+          nix.flake.autoArchive = false;
+        };
+      };
     };
 
     keymaps = [
